@@ -29,3 +29,31 @@ console.log(sliceditem);
 let presentFruit = fruit.includes("shawasour");
 console.log(presentFruit);
 
+//loop from 10 to 100
+for(let i=0; i<=100; i=i+10){
+    console.log(i);
+}
+
+//for each loop
+fruit.forEach(n=>{
+    console.log(n)
+})
+
+for(let i of fruit){
+    console.log(fruit[i]);
+}
+
+//map method. the map() 
+let number2 = [1, 2, 3, 4];
+let result = number2.map(n=>n/2);
+console.log(result);
+
+//using map to multiply the n value in an array by 3
+let result2 = number2.map(n=>n*3);
+console.log(result2);
+
+//filter method. the filter() method creates a new array with elements that pass a test implemented by the provided function. Its useful for filtering out elements based on certqain criteria
+let evenNumber = number2.filter(n => n % 2 == 0)
+console.log(evenNumber);
+
+
