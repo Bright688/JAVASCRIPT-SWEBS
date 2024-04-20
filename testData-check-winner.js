@@ -53,7 +53,7 @@ const checkWinner =(avgDolphins, avgKoalas)=>{
     console.log(`Koalas wins (${avgKoalas}) vs (${avgDolphins})`);
    }
    else{
-     console.log("No winner");
+     console.log("No Team wins");
    }
 }
 
